@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Impact';
+    src: url('assets/fonts/impact.ttf') format('truetype');
+}
+
+body{
+    background-color: rgb(192, 192, 192);
+    
+}
+#content{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 4%;
+}
+
+h1{
+    font-family: 'Impact', sans-serif;
+    font-size: 100px;
+    
+}
+
+
+#welcome{
+    margin-left: 10%;
+}
+
+#titulo{
+    margin-left:15%;
+}
+
+a{
+    text-decoration: none;
+    
+    float: left;
+}
+a:hover{
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+#titulo{
+    display: block;
+}
+
+#logo{
+    float: left;
+}
+
+
+#img-play{
+    margin-left: 8%;
+}
+
+#form{
+    margin-left: 10%;
+    text-align: right;
+    float: left;
+    display: none;
+    opacity: 0;
+    transition: opacity 1s ease;
+    
+}
+
+#form label {
+    display: block; /* Muestra las etiquetas en bloques */
+    margin-bottom: 10px; /* Agrega un espacio más grande debajo de cada etiqueta */
+    text-align: left;
+}
+
+#form input[type="submit"] {
+    width: 150%;
+    background-color: #0e55da;
+    color: white;
+    padding: 20px 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 30px;
+    
+}
+
+
+
+#form input[type="submit"]:hover {
+    background-color: #0026ff;
+}
+
+footer {
+    background-color: #515151;
+    color: white;
+    
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.copyright {
+    margin-top: 10px;
+    margin-bottom: -5px;
+    font-weight: bold;
+}
