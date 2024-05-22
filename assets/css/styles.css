@@ -50,6 +50,7 @@ a:hover{
 
 #img-play{
     margin-left: 8%;
+    margin-top:-40%;
 }
 
 #form{
@@ -68,7 +69,7 @@ a:hover{
     text-align: left;
 }
 
-#form input[type="submit"] {
+#form button {
     width: 150%;
     background-color: #0e55da;
     color: white;
@@ -83,7 +84,7 @@ a:hover{
 
 
 
-#form input[type="submit"]:hover {
+#form button:hover {
     background-color: #0026ff;
 }
 
