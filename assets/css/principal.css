@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Impact';
+    src: url('assets/fonts/impact.ttf') format('truetype');
+}
+
+h1{
+    font-family: 'Impact', sans-serif;
+    font-size: 100px;
+    
+}
+
+#logo-menu {
+    position: absolute; /* Posicionamiento absoluto */
+    left: 15px; /* Espacio a la izquierda */
+    top: 60%; /* Centrar verticalmente */
+    transform: translateY(-58%); /* Ajustar verticalmente */
+}
+
+.bg-verde { 
+    background-color: #4CAF50; /* Color verde de la barra del menú*/
+}
+
+/* Estilos personalizados */
+.rounded-input {
+    border-radius: 20px; /* Bordes redondos para el input */
+}
+.show-menu {
+    display: block !important; /* Mostrar el menú desplegable */
+}
+/* Estilo para el logo */
+a.navbar-brand {
+     margin-right: 0; /* Eliminar margen derecho */
+}
+
+.rounded-input {
+    border-radius: 20px; /* Bordes redondos para el input-group */
+}
+
+.rounded-start {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px; /* Bordes redondos al inicio del input */
+}
+
+.rounded-end {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px; /* Bordes redondos al final del botón */
+}
+
+#buscador-form{
+    padding-top: 1.8%;
+    padding-bottom: 1.8%;
+    margin-left: -25%;
+}
+
+#mapa {
+    width: 100%; /* Establece el ancho al 90% del contenedor */
+    height: 855px; /* Establece la altura en píxeles o en cualquier otra unidad de medida */
+    object-fit: cover; /* Para cubrir todo el espacio disponible */
+}

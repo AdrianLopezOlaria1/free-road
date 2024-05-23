@@ -1,11 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Free Road</title>
+    <link rel="icon" type="image/png" href="assets/img/logo.ico"> <!-- Favicon -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> <!-- Importar el Bootstrap -->
+    <link rel="stylesheet" href="assets/css/principal.css"><!-- Archivo de CSS personalizado -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
 </head>
+
 <body>
-    <h1>Principal</h1>
+    <!-- Menú de navegación Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-verde">
+        <div class="container">
+            <!-- Logo de la página en la parte izquierda -->
+            <a class="navbar-brand" id="logo-menu" href="#"><img src="assets/img/logo.png" alt="Logo" width="100"></a>
+            
+            <form  id="buscador-form">
+                <div class="input-group rounded-input"> <!-- Agrega la clase 'rounded-input' al input-group -->
+                    <div class="input-group-prepend">
+                        <span class="input-group-text rounded-start"><i class="fas fa-microphone"></i></span> <!-- Agrega 'rounded-start' para bordes redondos al inicio -->
+                    </div>
+                    <input class="form-control rounded-end" type="search" placeholder="Search" aria-label="Search"> <!-- Agrega 'rounded-end' para bordes redondos al final -->
+                    <div class="input-group-append bg-white"> <!-- Agrega la clase 'bg-white' para el fondo blanco -->
+                        <button class="btn btn-outline-success my-2 my-sm-0 rounded" type="submit"><i class="fas fa-search"></i></button> <!-- Agrega 'rounded' para bordes redondos -->
+                    </div>
+                    
+                </div>
+            </form>
+            <!-- Contenido del menú -->
+            
+        </div>
+    </nav>
+
+            <img id="mapa" alt="Mapa" src="assets/img/mapa.jpg"/>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Agregar evento clic al botón de las tres líneas
+            $('.navbar-toggler').click(function() {
+                $('#navbarSupportedContent').toggleClass('show-menu'); // Alternar la clase show-menu para mostrar u ocultar el menú
+            });
+        });
+    </script>
 </body>
+
 </html>
