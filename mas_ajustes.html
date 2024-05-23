@@ -9,68 +9,207 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> <!-- Importar el Boostrap -->
     <link rel="stylesheet" href="assets/css/styles.css"><!-- Archivo de css -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- Importar Jquery -->
-    <script src="assets/js/jquery.js"></script><!-- Para el efecto del logo -->
+    <script src="assets/js/jquery_mas.js"></script><!-- Para el efecto del logo -->
     
 </head>
 
 <body>
-    <div id="content">
+    <div id="content_mas">
         <div id="titulo">
             <h1 id="titulo">FREE ROAD</h1>
         </div>
 
         <div id="logo">
             <p>
-            <img alt="logo Free Road" src="assets/img/logo.png" width="500" id="animated-logo"/>
+            <img alt="logo Free Road" src="assets/img/logo.png" width="400" id="animated-logo"/>
         </p>
-        
-        </div>
-
-        <div id="form" >
-            <h2 id="welcome">Before starting</h2>
-            <form>
-
-                <div class="form-group">
-                    <label for="exampleInputPassword1">Name</label>
-                    <input type="text" class="form-control" id="name" placeholder="Enter full Name"
-                        style="width: 150%;">
-                </div>
-                <br>
-                <div class="form-group">
-                    <label for="exampleInputPassword1">Locality</label>
-                    <input type="text" class="form-control" id="locality" placeholder="Search your Locality"
-                        style="width: 150%;">
-                </div>
-                <br>
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Email</label>
-                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
-                        placeholder="Enter your email" style="width: 150%;">
-                   
-                </div>
-                <br>
-                <div class="form-group">
-                    <label for="exampleInputPassword1">Name</label>
-                    <input type="text" class="form-control" id="name" placeholder="Enter full Name"
-                        style="width: 150%;">
-                </div>
-                <br>
-                <div class="form-group">
-                    <label for="exampleInputPassword1">Name</label>
-                    <input type="text" class="form-control" id="name" placeholder="Enter full Name"
-                        style="width: 150%;">
-                </div>
-
-
-                <button id="btn_register">Empezar</button>
-            </form>
-            
-            <a href="login.html">Omitir</a> 
-        </div>
-
         <p>
-            <a href="https://play.google.com/store/apps" target="_blank"><img alt="Play Store" src ="assets/img/play_store.png" width="400" id="img-play"/></a>
+            <a href="https://play.google.com/store/apps" target="_blank"><img alt="Play Store" src ="assets/img/play_store.png" width="350" id="img-play-1"/></a>
         </p>
+        </div>
+
+            <div id="form" >
+                <h2 id="before-starting">Before starting</h2>
+                <form>
+
+                    <div class="form-group">
+                        <label for="model">Vehicle model</label>
+                        <input type="text" class="form-control" id="model" placeholder="Enter Model" list="vehicleModels" style="width:150%;">
+                        <datalist id="vehicleModels">
+                            <!-- Marcas de vehículos y sus modelos -->
+                            <option value="Acura ILX"> <!-- Acura -->
+                                <option value="Acura MDX"> <!-- Acura -->
+                                <option value="Acura RDX"> <!-- Acura -->
+                                <option value="Acura TLX"> <!-- Acura -->
+                                <option value="Alfa Romeo Giulia"> <!-- Alfa Romeo -->
+                                <option value="Alfa Romeo Stelvio"> <!-- Alfa Romeo -->
+                                <option value="Aston Martin DB11"> <!-- Aston Martin -->
+                                <option value="Aston Martin DBX"> <!-- Aston Martin -->
+                                <option value="Aston Martin Vantage"> <!-- Aston Martin -->
+                                <option value="Audi A3"> <!-- Audi -->
+                                <option value="Audi A4"> <!-- Audi -->
+                                <option value="Audi A5"> <!-- Audi -->
+                                <option value="Audi A6"> <!-- Audi -->
+                                <option value="Audi A7"> <!-- Audi -->
+                                <option value="Audi A8"> <!-- Audi -->
+                                <option value="Audi Q3"> <!-- Audi -->
+                                <option value="Audi Q5"> <!-- Audi -->
+                                <option value="Audi Q7"> <!-- Audi -->
+                                <option value="Audi Q8"> <!-- Audi -->
+                                <option value="Audi TT"> <!-- Audi -->
+                                <option value="Bentley Bentayga"> <!-- Bentley -->
+                                <option value="Bentley Continental GT"> <!-- Bentley -->
+                                <option value="Bentley Flying Spur"> <!-- Bentley -->
+                                <option value="BMW 2 Series"> <!-- BMW -->
+                                <option value="BMW 3 Series"> <!-- BMW -->
+                                <option value="BMW 4 Series"> <!-- BMW -->
+                                <option value="BMW 5 Series"> <!-- BMW -->
+                                <option value="BMW 6 Series"> <!-- BMW -->
+                                <option value="BMW 7 Series"> <!-- BMW -->
+                                <option value="BMW 8 Series"> <!-- BMW -->
+                                <option value="BMW X1"> <!-- BMW -->
+                                <option value="BMW X2"> <!-- BMW -->
+                                <option value="BMW X3"> <!-- BMW -->
+                                <option value="BMW X4"> <!-- BMW -->
+                                <option value="BMW X5"> <!-- BMW -->
+                                <option value="BMW X6"> <!-- BMW -->
+                                <option value="BMW X7"> <!-- BMW -->
+                                <option value="Bugatti Chiron"> <!-- Bugatti -->
+                                <option value="Bugatti Divo"> <!-- Bugatti -->
+                                <option value="Bugatti La Voiture Noire"> <!-- Bugatti -->
+                                <option value="Buick Encore"> <!-- Buick -->
+                                <option value="Buick Enclave"> <!-- Buick -->
+                                <option value="Buick Envision"> <!-- Buick -->
+                                <option value="Buick Regal"> <!-- Buick -->
+                                <option value="Cadillac CT4"> <!-- Cadillac -->
+                                <option value="Cadillac CT5"> <!-- Cadillac -->
+                                <option value="Cadillac CT6"> <!-- Cadillac -->
+                                <option value="Cadillac Escalade"> <!-- Cadillac -->
+                                <option value="Chevrolet Blazer"> <!-- Chevrolet -->
+                                <option value="Chevrolet Bolt EV"> <!-- Chevrolet -->
+                                <option value="Chevrolet Camaro"> <!-- Chevrolet -->
+                                <option value="Chevrolet Colorado"> <!-- Chevrolet -->
+                                <option value="Chevrolet Corvette"> <!-- Chevrolet -->
+                                <option value="Chevrolet Equinox"> <!-- Chevrolet -->
+                                <option value="Chevrolet Express"> <!-- Chevrolet -->
+                                <option value="Chevrolet Impala"> <!-- Chevrolet -->
+                                <option value="Chevrolet Malibu"> <!-- Chevrolet -->
+                                <option value="Chevrolet Silverado"> <!-- Chevrolet -->
+                                <option value="Chevrolet Suburban"> <!-- Chevrolet -->
+                                <option value="Chevrolet Tahoe"> <!-- Chevrolet -->
+                                <option value="Chevrolet Trailblazer"> <!-- Chevrolet -->
+                                <option value="Chevrolet Traverse"> <!-- Chevrolet -->
+                                <option value="Chevrolet Trax"> <!-- Chevrolet -->
+                                <option value="Chrysler 300"> <!-- Chrysler -->
+                                <option value="Chrysler Pacifica"> <!-- Chrysler -->
+                                <option value="Chrysler Voyager"> <!-- Chrysler -->
+                                <option value="Dodge Challenger"> <!-- Dodge -->
+                                <option value="Dodge Charger"> <!-- Dodge -->
+                                <option value="Dodge Durango"> <!-- Dodge -->
+                                <option value="Dodge Grand Caravan"> <!-- Dodge -->
+                                <option value="Dodge Journey"> <!-- Dodge -->
+                                <option value="Ferrari 488 GTB"> <!-- Ferrari -->
+                                <option value="Ferrari 812 Superfast"> <!-- Ferrari -->
+                                <option value="Ferrari F8 Tributo"> <!-- Ferrari -->
+                                <option value="Ferrari SF90 Stradale"> <!-- Ferrari -->
+                                <option value="Fiat 500"> <!-- Fiat -->
+                                <option value="Fiat 500X"> <!-- Fiat -->
+                                <option value="Fiat 124 Spider"> <!-- Fiat -->
+                                <option value="Ford Bronco"> <!-- Ford -->
+                                <option value="Ford EcoSport"> <!-- Ford -->
+                                <option value="Ford Edge"> <!-- Ford -->
+                                <option value="Ford Escape"> <!-- Ford -->
+                                <option value="Ford Expedition"> <!-- Ford -->
+                                <option value="Ford Explorer"> <!-- Ford -->
+                                <option value="Ford F-150"> <!-- Ford -->
+                                <option value="Ford F-250"> <!-- Ford -->
+                                <option value="Ford F-350"> <!-- Ford -->
+                                <option value="Ford Fusion"> <!-- Ford -->
+                                <option value="Ford Mustang"> <!-- Ford -->
+                                <option value="Ford Ranger"> <!-- Ford -->
+                                <option value="Ford Transit"> <!-- Ford -->
+                                <option value="Genesis G70"> <!-- Genesis -->
+                                <option value="Skoda Octavia"><!-- Skoda -->
+                                <option value="Skoda Superb"><!-- Skoda -->
+                                <option value="Skoda Fabia"><!-- Skoda -->
+                                <option value="Skoda Kodiaq"><!-- Skoda -->
+                                <option value="Skoda Karoq"><!-- Skoda -->
+                                <option value="Skoda Scala"><!-- Skoda -->
+                                <option value="Skoda Kamiq"><!-- Skoda -->
+                                <option value="Kia Forte"> <!-- Kia -->
+                                <option value="Kia Optima"> <!-- Kia -->
+                                <option value="Kia Sorento"> <!-- Kia -->
+                                <option value="Kia Sportage"> <!-- Kia -->
+                                <option value="Kia Telluride"> <!-- Kia -->
+                                <option value="Kia Rio"> <!-- Kia -->
+                                <option value="Kia Soul"> <!-- Kia -->
+                                <option value="Kia Stinger"> <!-- Kia -->
+                                <option value="Kia Carnival"> <!-- Kia -->
+                                <option value="Kia Cadenza"> <!-- Kia -->
+                                <option value="Kia K5"> <!-- Kia -->
+                                <option value="Kia Niro"> <!-- Kia -->
+                                <option value="Kia Sedona"> <!-- Kia -->
+                                <option value="Kia Seltos"> <!-- Kia -->
+                            <!-- Puedes agregar más marcas y modelos según tus necesidades -->
+                        </datalist>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="fuel">Fuel</label>
+                        <select class="form-control" id="fuel" style="width: 150%;">
+                            <option value="0">Select</option>
+                            <option value="gasoline95">Gasoline 95</option>
+                            <option value="gasoline98">Gasoline 98</option>
+                            <option value="diesel">Diesel</option>
+                            <option value="hybrid">Hybrid</option>
+
+                        </select>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="consumption">Consumption</label>
+                        <select class="form-control" id="consumption" style="width: 150%;">
+                            <option value="0">Select</option>
+                            <!-- Opciones generadas por JavaScript -->
+                        </select>
+                    </div>
+                </form>
+                
+                 
+            </div>
+            <div id="form-1">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Autonomy</label>
+                        <input type="number" class="form-control" id="name" placeholder="Enter autonomy Vehicle"
+                            style="width: 150%;">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="cargo">Cargo</label>
+                        <select class="form-control" id="cargo" style="width: 150%;">
+                            <option value="0">Select</option>
+                            <option value="1">No</option>
+                            <option value="2">Si(1 persona)</option>
+                            <option value="3">Si (2 personas)</option>
+                            <option value="4">Si (3 personas)</option>
+                            <option value="5">Si (4 personas)</option>
+                            <option value="6">Si, gente(bus)</option>
+                            <option value="7">Si, carga(camión)</option>
+                        </select>
+                    </div>
+
+    
+    
+                    <button class="btn_register_1">Empezar</button>
+                    <a href="login.html">Omitir</a>
+                </form>
+            </div>
+        <div>
+            
+        </div>
+
+
     </div>
 
 
@@ -81,7 +220,20 @@
             
         </div>
     </footer>
-    <script src="assets/js/register.js"></script>
+    <script>
+        // Obtener el elemento select
+        var selectElement = document.getElementById("consumption");
+    
+        // Generar opciones del 4.0 al 16.0 con incrementos de 0.1
+        for (var i = 40; i <= 160; i++) {
+            var optionValue = (i / 10).toFixed(1); // Convertir el valor a una cadena con un decimal
+            var optionText = optionValue.toString(); // Convertir el valor a texto
+            var option = new Option(optionText, optionValue); // Crear una nueva opción
+            selectElement.add(option); // Agregar la opción al select
+        }
+    </script>
+    
+    <!-- <script src="assets/js/register.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>

@@ -5,6 +5,12 @@ $(document).ready(function() {
         });
     }
     animateForm();
+    function animateForm1() {
+        $('#form-1').slideDown(700, function() {
+            $('#form-1').css('opacity', '1'); // Después de completar la animación de despliegue hacia abajo, cambia la opacidad a 1
+        });
+    }
+    animateForm1();
 
 
     

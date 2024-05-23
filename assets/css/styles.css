@@ -54,7 +54,7 @@ a:hover{
 }
 
 #form{
-    margin-left: 10%;
+    margin-left: 5%;
     text-align: right;
     float: left;
     display: none;
@@ -69,7 +69,7 @@ a:hover{
     text-align: left;
 }
 
-#form button {
+.btn_register {
     width: 150%;
     background-color: #0e55da;
     color: white;
@@ -83,8 +83,7 @@ a:hover{
 }
 
 
-
-#form button:hover {
+.btn_register:hover {
     background-color: #0026ff;
 }
 
@@ -103,3 +102,59 @@ footer {
     margin-bottom: -5px;
     font-weight: bold;
 }
+
+
+/* mas_ajustes */
+#content_mas{
+    margin-left: 18%;
+    margin-right: 10%;
+    margin-top: 4%;
+}
+#form-1{
+    float: left;
+    margin-left: 10%;
+    margin-top: 6%;
+    display: none;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+#img-play-1{
+    margin-left: 8%;
+    margin-top: -4%;
+}
+.btn_register_1 {
+    width: 150%;
+    background-color: #0e55da;
+    color: white;
+    padding: 6px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 65px;
+    
+}
+
+
+.btn_register_1:hover {
+    background-color: #0026ff;
+}
+
+#before-starting{
+    margin-top: 17%;
+    
+}
+
+/* Login */
+#img-play-log{
+    margin-top: -5%;
+    margin-left:10%;
+
+}
+
+#log{
+    margin-right: 15%;
+}
+
+
