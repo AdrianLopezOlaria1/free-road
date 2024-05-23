@@ -57,3 +57,9 @@ a.navbar-brand {
     height: 855px; /* Establece la altura en píxeles o en cualquier otra unidad de medida */
     object-fit: cover; /* Para cubrir todo el espacio disponible */
 }
+
+#lista{
+    
+    transform: translateY(-58%);
+    background-color: red;
+}
